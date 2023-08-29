@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Furgoncito</title>
+    <title>Menu</title>
     <link rel="icon" href="../img/hamburger.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -12,12 +12,11 @@
 <body>
 
 <?php 
-$mostrarMenu = true;
-$mostrarHome = false;
+$mostrarMenu = false;
+$mostrarHome = true;
 $mostrarCarrito = true;
 $mostrarNosotros = true;
-include 'php/navbar.php';
-?> <!-- NAVBAR -->
+include 'navbar.php' ?> <!-- NAVBAR -->
 
 <div class="gif-container">
     <h1>El Furgoncito</h1>
