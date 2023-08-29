@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<?php include 'navbar.php' ?> <!-- NAVBAR -->
+<?php include 'php/navbar.php' ?> <!-- NAVBAR -->
 
 <div class="gif-container">
     <h1>El Furgoncito</h1>
